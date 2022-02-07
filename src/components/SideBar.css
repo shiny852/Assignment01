@@ -1,0 +1,21 @@
+.sidebar {
+  flex: 1;
+  background-color: #071835;
+  position: sticky;
+  top: 0px;
+  height: 100vh;
+}
+
+.sidebar__logo {
+  font-size: 40px;
+  color: #ffffff;
+  margin: 1rem;
+}
+
+.sidebar-content__users {
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 400;
+  padding: 0.8rem 0;
+  background-color: #12233f;
+}
