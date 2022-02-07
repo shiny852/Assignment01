@@ -57,7 +57,11 @@ function App() {
     content = <p>{error}</p>;
   }
   if (isLoading) {
-    content = <div className='spinner'></div>;
+    content = (
+      <div className='spinner-background'>
+        <div className='spinner'></div>
+      </div>
+    );
   }
 
   return (
